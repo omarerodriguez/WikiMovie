@@ -59,7 +59,7 @@ namespace WikiMovies.Controllers
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error creating new employee record");
+                    "Error creating new movie record");
             }
 
         }
@@ -103,7 +103,7 @@ namespace WikiMovies.Controllers
             catch (Exception)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error Delete employee record");
+                    "Error Delete movie record");
             }
         }
     }
